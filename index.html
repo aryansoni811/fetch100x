@@ -3,9 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fetch 100x</title>
+    <title>100x Microblogging</title>
   </head>
   <body>
-    hello world
+    <h1>Post a Tweet</h1>
+    <form id="tweetForm">
+      <textarea
+        id="tweetText"
+        placeholder="Enter your tweet"
+        rows="4"
+        cols="50"
+      ></textarea>
+      <br />
+      <button type="submit">Post Tweet</button>
+    </form>
+    <div id="response"></div>
+    <script src="app.js"></script>
   </body>
 </html>
